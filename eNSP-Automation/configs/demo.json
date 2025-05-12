@@ -1,0 +1,393 @@
+{
+    "version": "1.0",
+    "devices": [
+        {
+            "name": "SW1",
+            "type": "S5730",
+            "version": "V200R019C00",
+            "model": "S5730-V200R019C00",
+            "config": "sysname SW1\nreturn",
+            "interfaces": [
+                {
+                    "name": "GE0/0/1",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/2",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/3",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/4",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/5",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/6",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/7",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/8",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/9",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/10",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/11",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/12",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/13",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/14",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/15",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/16",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/17",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/18",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/19",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/20",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/21",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/22",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/23",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/24",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "XGE0/0/25",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "XGE0/0/26",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "XGE0/0/27",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "XGE0/0/28",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                }
+            ]
+        },
+        {
+            "name": "SW2",
+            "type": "S5730",
+            "version": "V200R019C00",
+            "model": "S5730-V200R019C00",
+            "config": "sysname SW2\nreturn",
+            "interfaces": [
+                {
+                    "name": "GE0/0/1",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/2",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/3",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/4",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/5",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/6",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/7",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/8",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/9",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/10",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/11",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/12",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/13",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/14",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/15",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/16",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/17",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/18",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/19",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/20",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/21",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/22",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/23",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/24",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "XGE0/0/25",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "XGE0/0/26",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "XGE0/0/27",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "XGE0/0/28",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                }
+            ]
+        },
+        {
+            "name": "RT1",
+            "type": "AR2220",
+            "version": "V200R009C00",
+            "model": "AR2220-V200R009C00",
+            "config": "sysname RT1\nreturn",
+            "interfaces": [
+                {
+                    "name": "GE0/0/0",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                },
+                {
+                    "name": "GE0/0/1",
+                    "connected": false,
+                    "remote_device": null,
+                    "remote_interface": null
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "source": "SW1:GE0/0/1",
+            "target": "SW2:GE0/0/1",
+            "bandwidth": "1G"
+        },
+        {
+            "source": "SW1:GE0/0/2",
+            "target": "RT1:GE0/0/0",
+            "bandwidth": "1G"
+        }
+    ],
+    "generated_at": "2025-05-11 18:05:22"
+}

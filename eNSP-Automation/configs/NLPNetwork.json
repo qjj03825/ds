@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "devices": [
+    {
+      "name": "AR1",
+      "type": "AR2220",
+      "version": "V200R009C00",
+      "model": "AR2220-V200R009C00",
+      "config": "sysname AR1\nreturn",
+      "interfaces": [
+        {
+          "name": "GE0/0/0",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/1",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        }
+      ]
+    },
+    {
+      "name": "AR2",
+      "type": "AR2220",
+      "version": "V200R009C00",
+      "model": "AR2220-V200R009C00",
+      "config": "sysname AR2\nreturn",
+      "interfaces": [
+        {
+          "name": "GE0/0/0",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/1",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "AR1:GigabitEthernet0/0/0",
+      "target": "AR2:GigabitEthernet0/0/0",
+      "bandwidth": "1G"
+    }
+  ],
+  "generated_at": "2025-05-04 23:11:03"
+}

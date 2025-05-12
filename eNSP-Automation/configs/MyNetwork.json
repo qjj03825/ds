@@ -1,0 +1,187 @@
+{
+  "version": "1.0",
+  "devices": [
+    {
+      "name": "SW1",
+      "type": "S5700",
+      "version": "V200R019C00",
+      "model": "S5700-V200R019C00",
+      "config": "#\nsysname SW1\n#\nvlan batch 1\n#\nundo info-center enable\n#\ninterface Vlanif1\n ip address 192.168.132.254 255.255.255.0\n#\nreturn ",
+      "interfaces": [
+        {
+          "name": "GE0/0/1",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/2",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/3",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/4",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/5",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/6",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/7",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/8",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/9",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/10",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/11",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/12",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/13",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/14",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/15",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/16",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/17",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/18",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/19",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/20",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/21",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/22",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/23",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/24",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        }
+      ]
+    },
+    {
+      "name": "AR",
+      "type": "AR2220",
+      "version": "V200R009C00",
+      "model": "AR2220-V200R009C00",
+      "config": "sysname AR\nreturn",
+      "interfaces": [
+        {
+          "name": "GE0/0/0",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        },
+        {
+          "name": "GE0/0/1",
+          "connected": false,
+          "remote_device": null,
+          "remote_interface": null
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "source": "SW1:GigabitEthernet0/0/1",
+      "target": "AR:GigabitEthernet0/0/1",
+      "bandwidth": "1G"
+    }
+  ],
+  "generated_at": "2025-04-29T21:54:04.015352"
+}

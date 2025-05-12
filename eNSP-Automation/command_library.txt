@@ -1,0 +1,136 @@
+### 基本命令
+system-view
+quit
+return
+save
+save force
+undo
+display version
+display current-configuration
+display saved-configuration
+display this
+sysname SW1
+clock timezone BJ add 08:00:00
+reset saved-configuration
+
+### VLAN配置
+vlan 10
+vlan batch 10 20 30 40
+name VLAN-OFFICE
+description Office VLAN
+display vlan
+
+### 接口配置
+interface GigabitEthernet0/0/1
+interface Vlanif10
+port link-type access
+port link-type trunk
+port default vlan 10
+port trunk allow-pass vlan 10
+port trunk allow-pass vlan all
+shutdown
+undo shutdown
+ip address 192.168.1.1 255.255.255.0
+display interface brief
+speed 100
+speed 1000
+duplex full
+display interface GigabitEthernet0/0/1
+
+### 路由配置
+ip route-static 192.168.2.0 255.255.255.0 192.168.1.2
+ip route-static 0.0.0.0 0.0.0.0 192.168.1.254
+display ip routing-table
+display ip routing-table protocol static
+display ip routing-table 192.168.1.0
+
+### DHCP配置
+dhcp enable
+ip pool HUAWEI
+network 192.168.1.0 mask 255.255.255.0
+gateway-list 192.168.1.1
+dns-list 8.8.8.8
+dhcp select global
+dhcp server excluded-ip-address 192.168.1.1 192.168.1.10
+display ip pool
+
+### ACL配置
+acl 2000
+acl 3000
+rule 5 permit source 192.168.1.0 0.0.0.255
+rule 10 deny source any
+rule 10 deny ip
+display acl all
+display acl 2000
+quit
+
+### SSH配置
+stelnet server enable
+ssh user admin authentication-type password
+ssh user admin service-type stelnet
+aaa
+local-user admin password cipher huawei@123
+local-user admin service-type ssh
+local-user admin privilege level 15
+user-interface vty 0 4
+authentication-mode aaa
+protocol inbound ssh
+display ssh server status
+display ssh server session
+
+### OSPF配置
+ospf 1
+area 0
+network 192.168.1.0 0.0.0.255
+display ospf interface
+display ospf peer
+display ospf lsdb
+display ospf routing
+
+### STP配置
+stp enable
+stp mode rstp
+stp mode mstp
+stp root primary
+stp root secondary
+display stp
+display stp brief
+
+### 安全配置
+password-recovery enable
+user-interface console 0
+authentication-mode password
+set authentication password cipher huawei@123
+idle-timeout 10 0
+undo terminal monitor
+display password-recovery
+display user-interface
+
+### 日志配置
+info-center enable
+info-center source default channel 0 log level warning
+terminal monitor
+terminal logging level warning
+display info-center
+quit
+
+### 端口安全配置
+port-security enable
+port-security max-mac-num 5
+port-security port-mode autolearn
+port-security mac-address sticky
+
+### Telnet配置
+user-interface vty 0 4
+authentication-mode password
+set authentication password cipher huawei123
+protocol inbound telnet
+
+### 远程管理配置
+telnet server enable
+http server enable
+ssh server enable
+
+### 监控配置
+monitor session 1 source interface GigabitEthernet0/0/1
+monitor session 1 destination interface GigabitEthernet0/0/2 

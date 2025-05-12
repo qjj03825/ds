@@ -1,0 +1,68 @@
+2025-04-27 20:54:54,634 - src.topology_generator - ERROR - 生成设备配置失败: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-27 20:54:54,656 - __main__ - INFO - 拓扑JSON文件已保存到: D:\ds\eNSP-Automation\configs\simple_network.json
+2025-04-27 20:54:54,656 - src.topology_generator - INFO - 开始生成topo文件: D:\ds\eNSP-Automation\configs\simple_network.topo
+2025-04-27 20:54:54,656 - src.topology_generator - INFO - 拓扑包含设备数量: 2
+2025-04-27 20:54:54,656 - src.topology_generator - INFO - 拓扑包含连接数量: 1
+2025-04-27 20:54:54,656 - src.topology_generator - INFO - 添加设备: Core-SW (ID: 1)
+2025-04-27 20:54:54,656 - src.topology_generator - INFO - 添加设备: Router (ID: 2)
+2025-04-27 20:54:54,656 - src.topology_generator - INFO - 添加连接: Core-SW -> Router (ID: 1)
+2025-04-27 20:54:54,659 - src.topology_generator - INFO - topo文件已生成: D:\ds\eNSP-Automation\configs\simple_network.topo (大小: 2818 字节)
+2025-04-27 20:54:54,674 - src.topology_generator - INFO - 文件内容预览: <?xml version="1.0" ?>
+<topo version="1.3.00">
+  <NodesCount>2</NodesCount>
+  <LinksCount>1</LinksCount>
+  <nodes>
+    <node>
+      <id>1</id>
+      <name>Core-SW</name>
+      <deviceType>S5700</devic...
+2025-04-27 20:54:54,675 - __main__ - INFO - eNSP拓扑文件已生成: D:\ds\eNSP-Automation\configs\simple_network.topo
+2025-04-27 20:54:54,675 - __main__ - INFO - 
+请按照以下步骤在eNSP中加载拓扑文件:
+1. 打开eNSP
+2. 选择 文件 -> 打开
+3. 浏览到以下位置并选择拓扑文件:
+   D:\ds\eNSP-Automation\configs\simple_network.topo
+4. 启动所有设备(点击右键，选择"启动")
+5. 等待所有设备完全启动
+
+2025-04-27 20:54:58,240 - src.device_config - INFO - 成功导入netmiko库
+2025-04-27 20:54:58,240 - __main__ - INFO - 尝试连接到核心交换机...
+2025-04-27 20:54:58,240 - src.device_config - INFO - 检查设备 192.168.1.1 是否可达...
+2025-04-27 20:55:00,243 - src.device_config - ERROR - 设备 192.168.1.1 不可达或SSH端口未开放
+2025-04-27 20:55:00,244 - __main__ - ERROR - 无法连接到核心交换机，请确保设备已启动并配置了SSH访问
+2025-04-27 20:55:00,244 - __main__ - INFO - 提示：首次配置可能需要手动通过Console配置SSH
+2025-04-27 20:56:33,628 - src.topology_generator - ERROR - 生成设备配置失败: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2025-04-27 20:56:33,632 - __main__ - INFO - 拓扑JSON文件已保存到: D:\ds\eNSP-Automation\configs\simple_network.json
+2025-04-27 20:56:33,632 - src.topology_generator - INFO - 开始生成topo文件: D:\ds\eNSP-Automation\configs\simple_network.topo
+2025-04-27 20:56:33,632 - src.topology_generator - INFO - 拓扑包含设备数量: 2
+2025-04-27 20:56:33,632 - src.topology_generator - INFO - 拓扑包含连接数量: 1
+2025-04-27 20:56:33,632 - src.topology_generator - INFO - 添加设备: Core-SW (ID: 1)
+2025-04-27 20:56:33,632 - src.topology_generator - INFO - 添加设备: Router (ID: 2)
+2025-04-27 20:56:33,632 - src.topology_generator - INFO - 添加连接: Core-SW:GigabitEthernet0/0/1 -> Router:GigabitEthernet0/0/0 (ID: 1)
+2025-04-27 20:56:33,636 - src.topology_generator - INFO - topo文件已生成: D:\ds\eNSP-Automation\configs\simple_network.topo (大小: 2818 字节)
+2025-04-27 20:56:33,639 - src.topology_generator - INFO - 文件内容预览: <?xml version="1.0" ?>
+<topo version="1.3.00">
+  <NodesCount>2</NodesCount>
+  <LinksCount>1</LinksCount>
+  <nodes>
+    <node>
+      <id>1</id>
+      <name>Core-SW</name>
+      <deviceType>S5700</devic...
+2025-04-27 20:56:33,640 - __main__ - INFO - eNSP拓扑文件已生成: D:\ds\eNSP-Automation\configs\simple_network.topo
+2025-04-27 20:56:33,640 - __main__ - INFO - 
+请按照以下步骤在eNSP中加载拓扑文件:
+1. 打开eNSP
+2. 选择 文件 -> 打开
+3. 浏览到以下位置并选择拓扑文件:
+   D:\ds\eNSP-Automation\configs\simple_network.topo
+4. 启动所有设备(点击右键，选择"启动")
+5. 等待所有设备完全启动
+
+2025-04-27 20:56:48,535 - src.device_config - INFO - 成功导入netmiko库
+2025-04-27 20:56:48,536 - __main__ - INFO - 尝试连接到核心交换机...
+2025-04-27 20:56:48,536 - src.device_config - INFO - 检查设备 192.168.1.1 是否可达...
+2025-04-27 20:56:50,540 - src.device_config - ERROR - 设备 192.168.1.1 不可达或SSH端口未开放
+2025-04-27 20:56:50,540 - __main__ - ERROR - 无法连接到核心交换机，请确保设备已启动并配置了SSH访问
+2025-04-27 20:56:50,540 - __main__ - INFO - 提示：首次配置可能需要手动通过Console配置SSH

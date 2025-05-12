@@ -1,0 +1,1268 @@
+=== 设备连接开始：10.135.65.222 Thu May  1 15:39:15 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[错误] 认证失败，请检查用户名和密码
+=== 设备连接开始：10.135.65.222 Thu May  1 15:40:39 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[错误] 认证失败，请检查用户名和密码
+=== 设备连接开始：10.135.65.222 Thu May  1 15:41:29 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[错误] 认证失败，请检查用户名和密码
+=== 设备连接开始：10.135.65.222 Thu May  1 15:51:06 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 15:51:06.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 2 hours, 22 minutes
+
+=== 设备连接开始：10.135.65.222 Thu May  1 21:59:13 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 21:59:13.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 8 hours, 30 minutes
+
+=== 配置会话开始 Thu May  1 22:02:57 2025 ===
+设备: 10.135.65.222
+=== 设备连接开始：10.135.65.222 Thu May  1 22:13:30 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 22:13:31.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 8 hours, 44 minutes
+
+=== 配置会话开始 Thu May  1 22:15:13 2025 ===
+设备: 10.135.65.222
+[命令] system-view
+[输出] system-view
+
+[命令] interface GigabitEthernet0/0/4
+[输出] interface GigabitEthernet0/0/4
+
+[命令] port link-type access
+[输出] port link-type access
+
+[命令] port trunk allow-pass vlan 10
+[输出] port trunk allow-pass vlan 10
+
+[命令] quit
+[输出] quit
+
+[命令] interface Vlanif10
+[输出] interface Vlanif10
+
+[命令] ip address 192.168.10.1 255.255.255.0
+[输出] ip address 192.168.10.1 255.255.255.0
+
+[命令] quit
+[输出] quit
+
+=== 配置会话结束 Thu May  1 22:15:31 2025 ===
+
+=== 配置会话开始 Thu May  1 22:26:40 2025 ===
+设备: 10.135.65.222
+[命令] system-view
+[错误] 发送命令 'system-view' 失败: Socket is closed
+[命令] vlan 40
+[错误] 发送命令 'vlan 40' 失败: Socket is closed
+[命令] interface GigabitEthernet0/0/4
+[错误] 发送命令 'interface GigabitEthernet0/0/4' 失败: Socket is closed
+[命令] port link-type access
+[错误] 发送命令 'port link-type access' 失败: Socket is closed
+[命令] port default vlan 40
+[错误] 发送命令 'port default vlan 40' 失败: Socket is closed
+[命令] quit
+[错误] 发送命令 'quit' 失败: Socket is closed
+[命令] return
+[错误] 发送命令 'return' 失败: Socket is closed
+[命令] save
+[错误] 发送命令 'save' 失败: Socket is closed
+[命令] y
+[错误] 发送命令 'y' 失败: Socket is closed
+=== 配置会话结束 Thu May  1 22:26:40 2025 ===
+
+=== 配置会话开始 Thu May  1 22:27:24 2025 ===
+设备: 10.135.65.222
+[命令] system-view
+[错误] 发送命令 'system-view' 失败: Socket is closed
+[命令] vlan 40
+[错误] 发送命令 'vlan 40' 失败: Socket is closed
+[命令] interface GigabitEthernet0/0/4
+[错误] 发送命令 'interface GigabitEthernet0/0/4' 失败: Socket is closed
+[命令] port link-type access
+[错误] 发送命令 'port link-type access' 失败: Socket is closed
+[命令] port default vlan 40
+[错误] 发送命令 'port default vlan 40' 失败: Socket is closed
+[命令] quit
+[错误] 发送命令 'quit' 失败: Socket is closed
+[命令] return
+[错误] 发送命令 'return' 失败: Socket is closed
+[命令] save
+[错误] 发送命令 'save' 失败: Socket is closed
+[命令] y
+[错误] 发送命令 'y' 失败: Socket is closed
+=== 配置会话结束 Thu May  1 22:27:24 2025 ===
+
+=== 设备连接开始：10.135.65.222 Thu May  1 22:27:50 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 22:27:50.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 8 hours, 58 minutes
+
+=== 配置会话开始 Thu May  1 22:28:03 2025 ===
+设备: 10.135.65.222
+[命令] system-view
+[输出] system-view
+
+[命令] vlan 40
+[输出] vlan 40
+
+[命令] interface GigabitEthernet0/0/4
+[输出] interface GigabitEthernet0/0/4
+
+[命令] port link-type access
+[输出] port link-type access
+
+[命令] port default vlan 40
+[输出] port default vlan 40
+
+[命令] quit
+[输出] quit
+
+[命令] return
+[输出] return
+
+[命令] save
+[输出] save
+
+[命令] y
+[输出] y
+
+=== 配置会话结束 Thu May  1 22:28:23 2025 ===
+
+=== 配置会话开始 Thu May  1 22:37:37 2025 ===
+设备: 10.135.65.222
+[命令] system-view
+[输出] system-view
+
+[命令] interface GigabitEthernet0/0/4
+[输出] interface GigabitEthernet0/0/4
+
+[命令] port link-type access
+[输出] port link-type access
+
+[命令] port default vlan 10
+[输出] port default vlan 10
+
+[命令] port trunk allow-pass vlan all
+[输出] port trunk allow-pass vlan all
+
+[命令] ip address 192.168.1.1 255.255.255.0
+[输出] ip address 192.168.1.1 255.255.255.0
+
+=== 配置会话结束 Thu May  1 22:37:50 2025 ===
+
+=== 设备连接开始：10.135.65.222 Thu May  1 22:48:44 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 22:48:45.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 9 hours, 19 minutes
+
+=== 配置会话开始 Thu May  1 22:50:00 2025 ===
+设备: 10.135.65.222
+[命令] interface GigabitEthernet0/0/4
+[输出] interface GigabitEthernet0/0/4
+
+[命令] port link-type access
+[输出] port link-type access
+
+[命令] port default vlan 10
+[输出] port default vlan 10
+
+[命令] port trunk allow-pass vlan all
+[输出] port trunk allow-pass vlan all
+
+[命令] ip address 192.168.1.1 255.255.255.0
+[输出] ip address 192.168.1.1 255.255.255.0
+
+[验证] 接口配置:
+#
+interface GigabitEthernet0/0/4
+#
+return
+
+=== 配置会话结束 Thu May  1 22:50:16 2025 ===
+
+=== 配置会话开始 Thu May  1 22:59:14 2025 ===
+设备: 10.135.65.222
+[命令] interface GigabitEthernet0/0/4
+[输出] interface GigabitEthernet0/0/4
+
+[命令] port link-type access
+[输出] port link-type access
+
+[命令] port default vlan 10
+[输出] port default vlan 10
+
+[命令] port trunk allow-pass vlan all
+[输出] port trunk allow-pass vlan all
+
+[命令] ip address 192.168.1.1 255.255.255.0
+[输出] ip address 192.168.1.1 255.255.255.0
+
+[命令] q
+[输出] q
+
+[命令] return
+[输出] return
+
+[命令] save
+[输出] save
+     ^
+Error: Unrecognized command found at '^' position.
+[sw1]
+
+[命令] y
+[输出] y
+
+[验证] 接口配置:
+#
+interface GigabitEthernet0/0/4
+#
+return
+
+=== 配置会话结束 Thu May  1 22:59:39 2025 ===
+
+=== 设备连接开始：10.135.65.222 Thu May  1 23:08:48 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 23:08:49.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 9 hours, 39 minutes
+
+=== 设备连接开始：10.135.65.222 Thu May  1 23:09:13 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 2.
+      The current login time is 2025-05-01 23:09:13.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 9 hours, 40 minutes
+
+=== 设备连接开始：10.135.65.222 Thu May  1 23:09:25 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 3.
+      The current login time is 2025-05-01 23:09:26.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 9 hours, 40 minutes
+
+=== 设备连接开始：10.135.65.222 Thu May  1 23:14:12 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 23:14:12.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 9 hours, 45 minutes
+
+=== 设备连接开始：10.135.65.222 Thu May  1 23:14:34 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 2.
+      The current login time is 2025-05-01 23:14:35.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 9 hours, 45 minutes
+
+=== 设备连接开始：10.135.65.222 Thu May  1 23:18:22 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 23:18:23.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 9 hours, 49 minutes
+
+=== 设备连接开始：10.135.65.222 Thu May  1 23:20:29 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-01 23:20:30.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 9 hours, 51 minutes
+
+=== 配置会话开始 Thu May  1 23:21:58 2025 ===
+设备: 10.135.65.222
+[错误] 配置失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+=== 配置会话异常终止 Thu May  1 23:22:19 2025 ===
+
+=== 配置会话开始 Thu May  1 23:23:03 2025 ===
+设备: 10.135.65.222
+[错误] 配置失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+=== 配置会话异常终止 Thu May  1 23:23:24 2025 ===
+
+=== 设备连接开始：10.135.65.222 Thu May  1 23:23:55 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[错误] 设备 10.135.65.222 不可达: timed out
+=== 设备连接开始：10.135.65.222 Fri May  2 21:24:38 2025 ===
+Device settings: huawei 10.135.65.222:22
+
+[检查] 测试设备 10.135.65.222 是否可达...
+[成功] 设备 10.135.65.222 端口 22 可达
+[连接] 尝试连接设备 10.135.65.222...
+[成功] 已成功连接到设备 10.135.65.222 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-02 21:24:39.
+<Huawei>
+<Huawei>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 0 hour, 18 minutes
+
+=== 配置会话开始 Fri May  2 21:31:20 2025 ===
+设备: 10.135.65.222
+[错误] 配置失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+=== 配置会话异常终止 Fri May  2 21:31:41 2025 ===
+
+=== 配置会话开始 Fri May  2 21:32:18 2025 ===
+设备: 10.135.65.222
+[错误] 配置失败: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+=== 配置会话异常终止 Fri May  2 21:32:39 2025 ===
+
+=== 设备连接开始：192.168.56.10 Fri May  2 21:51:57 2025 ===
+Device settings: huawei 192.168.56.10:22
+
+[检查] 测试设备 192.168.56.10 是否可达...
+[成功] 设备 192.168.56.10 端口 22 可达
+[连接] 尝试连接设备 192.168.56.10...
+[成功] 已成功连接到设备 192.168.56.10 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-02 21:51:58.
+<Huawei>
+<Huawei>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 0 hour, 45 minutes
+
+=== 配置会话开始 Fri May  2 21:52:13 2025 ===
+设备: 192.168.56.10
+[命令] system-view
+[输出] system-view
+Enter system view, return user view with Ctrl+Z.
+[Huawei]
+
+[命令] vlan 20
+[输出] vlan 20
+[Huawei-vlan20]
+
+[命令] quit
+[输出] quit
+[Huawei]
+
+[命令] interface GigabitEthernet0/0/2
+[输出] interface GigabitEthernet0/0/2
+[Huawei-GigabitEthernet0/0/2]
+
+[命令] port link-type trunk
+[输出] port link-type trunk
+[Huawei-GigabitEthernet0/0/2]
+
+[命令] port default vlan 20
+[输出] port default vlan 20
+                                  ^
+Error: Unrecognized command found at '^' position.
+[Huawei-GigabitEthernet0/0/2]
+
+[命令] quit
+[输出] quit
+[Huawei]
+
+[命令] interface vlanif 20
+[输出] interface vlanif 20
+[Huawei-Vlanif20]
+
+[命令] ip address 192.168.1.1 255.255.255.0
+[输出] ip address 192.168.1.1 255.255.255.0
+[Huawei-Vlanif20]
+
+[命令] quit
+[输出] quit
+[Huawei]
+
+[命令] display current-configuration interface GigabitEthernet0/0/2
+[输出] display current-configuration interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/2
+ port link-type trunk
+#
+return
+[Huawei]
+
+[验证] 接口配置:
+display current-configuration interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/2
+ port link-type trunk
+#
+return
+[Huawei]
+
+=== 配置会话结束 Fri May  2 21:52:28 2025 ===
+
+=== 配置会话开始 Fri May  2 22:23:56 2025 ===
+设备: 192.168.56.10
+[命令] vlan 30
+[输出] vlan 30
+        ^
+Error: Unrecognized command found at '^' position.
+<Huawei>
+
+[命令] q
+[输出] q
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+
+[命令] interface gigabitethernet 0/0/3
+[错误] 配置失败: Socket is closed
+=== 配置会话异常终止 Fri May  2 22:23:59 2025 ===
+
+=== 设备连接开始：192.168.56.10 Fri May  2 22:24:40 2025 ===
+Device settings: huawei 192.168.56.10:22
+
+[检查] 测试设备 192.168.56.10 是否可达...
+[成功] 设备 192.168.56.10 端口 22 可达
+[连接] 尝试连接设备 192.168.56.10...
+[成功] 已成功连接到设备 192.168.56.10 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-02 22:24:41.
+<Huawei>
+<Huawei>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 1 hour, 18 minutes
+
+=== 设备连接开始：192.168.56.10 Fri May  2 22:25:26 2025 ===
+Device settings: huawei 192.168.56.10:22
+
+[检查] 测试设备 192.168.56.10 是否可达...
+[成功] 设备 192.168.56.10 端口 22 可达
+[连接] 尝试连接设备 192.168.56.10...
+[成功] 已成功连接到设备 192.168.56.10 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 2.
+      The current login time is 2025-05-02 22:25:26.
+<Huawei>
+<Huawei>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 1 hour, 19 minutes
+
+=== 配置会话开始 Fri May  2 22:25:51 2025 ===
+设备: 192.168.56.10
+[命令] vlan 30
+[输出] vlan 30
+        ^
+Error: Unrecognized command found at '^' position.
+<Huawei>
+
+[命令] q
+[输出] q
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 2.
+
+[命令] interface gigabitethernet 0/0/3
+[错误] 配置失败: Socket is closed
+=== 配置会话异常终止 Fri May  2 22:25:55 2025 ===
+
+=== 配置会话开始 Fri May  2 22:28:25 2025 ===
+设备: 192.168.56.10
+[命令] system-view
+[输出] system-view
+Enter system view, return user view with Ctrl+Z.
+[Huawei]
+
+[命令] vlan 30
+[输出] vlan 30
+[Huawei-vlan30]
+
+[命令] q
+[输出] q
+[Huawei]
+
+[命令] interface gigabitethernet 0/0/3
+[输出] interface gigabitethernet 0/0/3
+[Huawei-GigabitEthernet0/0/3]
+
+[命令] port link-type access
+[输出] port link-type access
+[Huawei-GigabitEthernet0/0/3]
+
+[命令] port def vlan 30
+[输出] port def vlan 30
+[Huawei-GigabitEthernet0/0/3]
+
+[命令] q
+[输出] q
+[Huawei]
+
+[命令] interface vlanif 30
+[输出] interface vlanif 30
+[Huawei-Vlanif30]
+
+[命令] ip add 192.168.137.222 24
+[输出] ip add 192.168.137.222 24
+[Huawei-Vlanif30]
+
+[命令] q
+[输出] q
+[Huawei]
+
+[命令] display current-configuration interface gigabitethernet 0/0/3
+[输出] display current-configuration interface gigabitethernet 0/0/3
+#
+interface GigabitEthernet0/0/3
+ port link-type access
+ port default vlan 30
+#
+return
+[Huawei]
+
+[验证] 接口配置:
+display current-configuration interface gigabitethernet 0/0/3
+#
+interface GigabitEthernet0/0/3
+ port link-type access
+ port default vlan 30
+#
+return
+[Huawei]
+
+=== 配置会话结束 Fri May  2 22:28:40 2025 ===
+
+=== 设备连接开始：192.168.56.20 Sat May  3 22:20:47 2025 ===
+Device settings: huawei 192.168.56.20:22
+
+[检查] 测试设备 192.168.56.20 是否可达...
+[成功] 设备 192.168.56.20 端口 22 可达
+[连接] 尝试连接设备 192.168.56.20...
+[成功] 已成功连接到设备 192.168.56.20 (paramiko方式)
+[输出] 初始输出: 
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+      The current login time is 2025-05-03 22:20:48.
+<sw1>
+<sw1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.110 (S5700 V200R001C00)
+Copyright (c) 2000-2011 HUAWEI TECH CO., LTD
+
+Quidway S5700-28C-HI Routing Switch uptime is 0 week, 0 day, 0 hour, 7 minutes
+
+=== 配置会话开始 Sat May  3 22:25:17 2025 ===
+设备: 192.168.56.20
+[命令] vlan 20
+[输出] vlan 20
+     ^
+Error: Unrecognized command found at '^' position.
+<sw1>
+
+[命令] q
+[输出] q
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+
+[命令] interface gigabitethernet 0/0/2
+[错误] 配置失败: Socket is closed
+=== 配置会话异常终止 Sat May  3 22:25:20 2025 ===
+
+=== 配置会话开始 Sat May  3 22:29:18 2025 ===
+设备: 192.168.56.20
+[命令] vlan 30
+[输出] vlan 30
+     ^
+Error: Unrecognized command found at '^' position.
+<sw1>
+
+[命令] q
+[输出] q
+Info: The max number of VTY users is 5, and the number
+      of current VTY users on line is 1.
+
+[命令] interface gigabitethernet 0/0/2
+[错误] 配置失败: Socket is closed
+=== 配置会话异常终止 Sat May  3 22:29:22 2025 ===
+
+=== 配置会话开始 Sat May  3 22:32:11 2025 ===
+设备: 192.168.56.20
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[sw1]
+
+[命令] vlan 30
+[输出] vlan 30
+[sw1-vlan30]
+
+[命令] q
+[输出] q
+[sw1]
+
+[命令] interface gigabitethernet 0/0/2
+[输出] interface gigabitethernet 0/0/2
+[sw1-GigabitEthernet0/0/2]
+
+[命令] port link-type access
+[输出] port link-type access
+[sw1-GigabitEthernet0/0/2]
+
+[命令] port def vlan 30
+[输出] port def vlan 30
+[sw1-GigabitEthernet0/0/2]
+
+[命令] q
+[输出] q
+[sw1]
+
+[命令] interface vlanif 30
+[输出] interface vlanif 30
+[sw1-Vlanif30]
+
+[命令] ip add 192.168.137.254 24
+[输出] ip add 192.168.137.254 24
+[sw1-Vlanif30]
+
+[命令] display current-configuration interface gigabitethernet 0/0/2
+[输出] display current-configuration interface gigabitethernet 0/0/2
+#
+interface GigabitEthernet0/0/2
+ port link-type access
+ port default vlan 30
+#
+return
+[sw1-Vlanif30]
+
+[验证] 接口配置:
+display current-configuration interface gigabitethernet 0/0/2
+#
+interface GigabitEthernet0/0/2
+ port link-type access
+ port default vlan 30
+#
+return
+[sw1-Vlanif30]
+
+=== 配置会话结束 Sat May  3 22:32:25 2025 ===
+
+=== 设备连接开始：192.168.0.10 Sun May  4 19:52:37 2025 ===
+Device settings: huawei 192.168.0.10:22
+
+[检查] 测试设备 192.168.0.10 是否可达...
+[成功] 设备 192.168.0.10 端口 22 可达
+[连接] 尝试连接设备 192.168.0.10...
+[成功] 已成功连接到设备 192.168.0.10 (paramiko方式)
+[输出] 初始输出: 
+<ar1>
+<ar1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.130 (AR2200 V200R003C00)
+Copyright (C) 2011-2012 HUAWEI TECH CO., LTD
+Huawei AR2220 Router uptime is 0 week, 0 day, 0 hour, 13 minutes
+BKP 0 version information: 
+1. PCB      Version  : AR01BAK2A VER.NC
+2. If Supporting PoE : No
+3. Board    Type     : AR2220
+4. MPU Slot Quantity : 1
+5. LPU Slot Quantity : 6
+
+MPU 0(Master) : uptime is 0 week, 0 day, 0 hour, 13 minutes
+MPU version information : 
+1. PCB      Version  : AR01SRU2A VER.A
+2. MAB      Version  : 0
+3. Board    Type     : AR2220
+4. BootROM  Version  : 0
+
+
+=== 配置会话开始 Sun May  4 19:53:51 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/1
+[输出] int g0/0/1
+[ar1-GigabitEthernet0/0/1]
+
+[命令] ip add 192.168.0.12
+[输出] ip add 192.168.0.12
+                                              ^
+Error:Incomplete command found at '^' position.
+[ar1-GigabitEthernet0/0/1]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Sun May  4 19:53:58 2025 ===
+
+=== 配置会话开始 Sun May  4 19:56:06 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/1
+[输出] int g0/0/1
+[ar1-GigabitEthernet0/0/1]
+
+[命令] ip add 192.168.0.12 255.255.255.0
+[输出] ip add 192.168.0.12 255.255.255.0
+Error: The specified address conflicts with another address.
+[ar1-GigabitEthernet0/0/1]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Sun May  4 19:56:13 2025 ===
+
+=== 配置会话开始 Sun May  4 20:02:12 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/1
+[输出] int g0/0/1
+[ar1-GigabitEthernet0/0/1]
+
+[命令] ip add 192.168.0.12 255.255.255.0
+[输出] ip add 192.168.0.12 255.255.255.0
+Error: The specified address conflicts with another address.
+[ar1-GigabitEthernet0/0/1]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Sun May  4 20:02:19 2025 ===
+
+=== 设备连接开始：192.168.0.10 Sun May  4 20:06:54 2025 ===
+Device settings: huawei 192.168.0.10:22
+
+[检查] 测试设备 192.168.0.10 是否可达...
+[成功] 设备 192.168.0.10 端口 22 可达
+[连接] 尝试连接设备 192.168.0.10...
+[成功] 已成功连接到设备 192.168.0.10 (paramiko方式)
+[输出] 初始输出: 
+<ar1>
+<ar1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.130 (AR2200 V200R003C00)
+Copyright (C) 2011-2012 HUAWEI TECH CO., LTD
+Huawei AR2220 Router uptime is 0 week, 0 day, 0 hour, 1 minute
+BKP 0 version information: 
+1. PCB      Version  : AR01BAK2A VER.NC
+2. If Supporting PoE : No
+3. Board    Type     : AR2220
+4. MPU Slot Quantity : 1
+5. LPU Slot Quantity : 6
+
+MPU 0(Master) : uptime is 0 week, 0 day, 0 hour, 1 minute
+MPU version information : 
+1. PCB      Version  : AR01SRU2A VER.A
+2. MAB      Version  : 0
+3. Board    Type     : AR2220
+4. BootROM  Version  : 0
+
+
+=== 配置会话开始 Sun May  4 20:08:07 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/1
+[输出] int g0/0/1
+[ar1-GigabitEthernet0/0/1]
+
+[命令] ip add 192.168.0.12 255.255.255.0
+[输出] ip add 192.168.0.12 255.255.255.0
+Error: The specified address conflicts with another address.
+[ar1-GigabitEthernet0/0/1]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Sun May  4 20:08:13 2025 ===
+
+=== 设备连接开始：192.168.0.10 Sun May  4 20:21:51 2025 ===
+Device settings: huawei 192.168.0.10:22
+
+[检查] 测试设备 192.168.0.10 是否可达...
+[成功] 设备 192.168.0.10 端口 22 可达
+[连接] 尝试连接设备 192.168.0.10...
+[成功] 已成功连接到设备 192.168.0.10 (paramiko方式)
+[输出] 初始输出: 
+<ar1>
+<ar1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.130 (AR2200 V200R003C00)
+Copyright (C) 2011-2012 HUAWEI TECH CO., LTD
+Huawei AR2220 Router uptime is 0 week, 0 day, 0 hour, 1 minute
+BKP 0 version information: 
+1. PCB      Version  : AR01BAK2A VER.NC
+2. If Supporting PoE : No
+3. Board    Type     : AR2220
+4. MPU Slot Quantity : 1
+5. LPU Slot Quantity : 6
+
+MPU 0(Master) : uptime is 0 week, 0 day, 0 hour, 1 minute
+MPU version information : 
+1. PCB      Version  : AR01SRU2A VER.A
+2. MAB      Version  : 0
+3. Board    Type     : AR2220
+4. BootROM  Version  : 0
+
+
+=== 配置会话开始 Sun May  4 20:23:06 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/1
+[输出] int g0/0/1
+[ar1-GigabitEthernet0/0/1]
+
+[命令] ip add 192.168.0.20 255.255.255.0
+[输出] ip add 192.168.0.20 255.255.255.0
+Error: The specified address conflicts with another address.
+[ar1-GigabitEthernet0/0/1]
+
+[命令] q
+[输出] q
+[ar1]
+
+[命令] q
+[输出] q
+<ar1>
+
+[命令] save
+[输出] save
+  The current configuration will be written to the device. 
+  Are you sure to continue? (y/n)[n]:
+
+[命令] y
+[输出] y
+  It will take several minutes to save configuration file, please wait...
+
+=== 配置会话结束 Sun May  4 20:23:18 2025 ===
+
+=== 配置会话开始 Sun May  4 20:24:27 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/1
+[输出] int g0/0/1
+[ar1-GigabitEthernet0/0/1]
+
+[命令] ip add 192.168.0.20 255.255.255.0
+[输出] ip add 192.168.0.20 255.255.255.0
+Error: The specified address conflicts with another address.
+[ar1-GigabitEthernet0/0/1]
+
+[命令] q
+[输出] q
+[ar1]
+
+[命令] q
+[输出] q
+<ar1>
+
+[命令] save
+[输出] save
+  The current configuration will be written to the device. 
+  Are you sure to continue? (y/n)[n]:
+
+[命令] y
+[输出] y
+  It will take several minutes to save configuration file, please wait...
+
+[命令] y
+[输出] ....
+  Configuration file had been saved successfully
+  Note: The configuration file will take effect after being activated
+<ar1>y
+     ^
+Error: Unrecognized command found at '^' position.
+<ar1>
+
+=== 配置会话结束 Sun May  4 20:24:40 2025 ===
+
+=== 配置会话开始 Sun May  4 20:32:45 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/2
+[输出] int g0/0/2
+[ar1-GigabitEthernet0/0/2]
+
+[命令] ip add 192.168.0.20 255.255.255.0
+[输出] ip add 192.168.0.20 255.255.255.0
+Error: The specified address conflicts with another address.
+[ar1-GigabitEthernet0/0/2]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Sun May  4 20:32:52 2025 ===
+
+=== 配置会话开始 Sun May  4 20:35:50 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/2
+[输出] int g0/0/2
+[ar1-GigabitEthernet0/0/2]
+
+[命令] ip add 192.168.1.20 255.255.255.0
+[输出] ip add 192.168.1.20 255.255.255.0
+[ar1-GigabitEthernet0/0/2]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Sun May  4 20:35:56 2025 ===
+
+=== 配置会话开始 Sun May  4 20:36:44 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/1
+[输出] int g0/0/1
+[ar1-GigabitEthernet0/0/1]
+
+[命令] ip add 192.168.2.10 255.255.255.0
+[输出] ip add 192.168.2.10 255.255.255.0
+[ar1-GigabitEthernet0/0/1]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Sun May  4 20:36:51 2025 ===
+
+=== 设备连接开始：192.168.0.10 Sun May  4 20:49:53 2025 ===
+Device settings: huawei 192.168.0.10:22
+
+[检查] 测试设备 192.168.0.10 是否可达...
+[成功] 设备 192.168.0.10 端口 22 可达
+[连接] 尝试连接设备 192.168.0.10...
+[成功] 已成功连接到设备 192.168.0.10 (paramiko方式)
+[输出] 初始输出: 
+<ar1>
+<ar1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.130 (AR2200 V200R003C00)
+Copyright (C) 2011-2012 HUAWEI TECH CO., LTD
+Huawei AR2220 Router uptime is 0 week, 0 day, 0 hour, 2 minutes
+BKP 0 version information: 
+1. PCB      Version  : AR01BAK2A VER.NC
+2. If Supporting PoE : No
+3. Board    Type     : AR2220
+4. MPU Slot Quantity : 1
+5. LPU Slot Quantity : 6
+
+MPU 0(Master) : uptime is 0 week, 0 day, 0 hour, 2 minutes
+MPU version information : 
+1. PCB      Version  : AR01SRU2A VER.A
+2. MAB      Version  : 0
+3. Board    Type     : AR2220
+4. BootROM  Version  : 0
+
+
+=== 设备连接开始：192.168.0.10 Mon May  5 12:24:17 2025 ===
+Device settings: huawei 192.168.0.10:22
+
+[检查] 测试设备 192.168.0.10 是否可达...
+[成功] 设备 192.168.0.10 端口 22 可达
+[连接] 尝试连接设备 192.168.0.10...
+[成功] 已成功连接到设备 192.168.0.10 (paramiko方式)
+[输出] 初始输出: 
+<ar1>
+<ar1>
+[信息] 设备版本: Huawei Versatile Routing Platform Software
+[输出] Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.130 (AR2200 V200R003C00)
+Copyright (C) 2011-2012 HUAWEI TECH CO., LTD
+Huawei AR2220 Router uptime is 0 week, 0 day, 0 hour, 11 minutes
+BKP 0 version information: 
+1. PCB      Version  : AR01BAK2A VER.NC
+2. If Supporting PoE : No
+3. Board    Type     : AR2220
+4. MPU Slot Quantity : 1
+5. LPU Slot Quantity : 6
+
+MPU 0(Master) : uptime is 0 week, 0 day, 0 hour, 11 minutes
+MPU version information : 
+1. PCB      Version  : AR01SRU2A VER.A
+2. MAB      Version  : 0
+3. Board    Type     : AR2220
+4. BootROM  Version  : 0
+
+
+=== 配置会话开始 Mon May  5 12:25:27 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/0
+[输出] int g0/0/0
+[ar1-GigabitEthernet0/0/0]
+
+[命令] ip add 192.168.1.10
+[输出] ip add 192.168.1.10
+                                              ^
+Error:Incomplete command found at '^' position.
+[ar1-GigabitEthernet0/0/0]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Mon May  5 12:25:34 2025 ===
+
+=== 配置会话开始 Mon May  5 12:26:06 2025 ===
+设备: 192.168.0.10
+[命令] sys
+[输出] sys
+Enter system view, return user view with Ctrl+Z.
+[ar1]
+
+[命令] int g0/0/0
+[输出] int g0/0/0
+[ar1-GigabitEthernet0/0/0]
+
+[命令] ip add 192.168.1.10 255.255.255.0
+[输出] ip add 192.168.1.10 255.255.255.0
+[ar1-GigabitEthernet0/0/0]
+
+[命令] q
+[输出] q
+[ar1]
+
+=== 配置会话结束 Mon May  5 12:26:13 2025 ===
+
+=== 设备连接开始：192.168.0.10 Mon May  5 12:27:25 2025 ===
+Device settings: huawei 192.168.0.10:22
+
+[检查] 测试设备 192.168.0.10 是否可达...
+[错误] 设备 192.168.0.10 不可达: timed out

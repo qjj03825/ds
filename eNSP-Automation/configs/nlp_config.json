@@ -1,0 +1,7 @@
+{
+  "model_type": "deepseek",
+  "api_key": "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",
+  "api_url": "https://integrate.api.nvidia.com/v1/chat/completions",
+  "api_secret": "",
+  "api_app_id": ""
+}
