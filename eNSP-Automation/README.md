@@ -12,7 +12,7 @@ eNSP-Automation是一个用于自动化配置华为eNSP网络拓扑的Python工�
   - DeepSeek API（需要密钥）
   - 讯飞星火（需要密钥）
 - 设备自动配置：根据拓扑生成设备配置脚本
-- eNSP集成：与华为eNSP软件直接交互
+- eNSP集成：eNSP拓扑导入
 
 ## 系统要求
 
@@ -62,24 +62,19 @@ python test_connection.py
   - `nlp_helper.py`：自然语言处理模块
   - `topology_generator.py`：拓扑生成模块
   - `device_config.py`：设备配置生成模块
-  - `ensp_integration.py`：eNSP集成模块
+  - `ensp_integration.py`：eNSP拓扑导入模块
 - `configs/`：配置文件目录
 - `logs/`：日志文件目录
 - `examples/`：示例拓扑和配置
 
 ## 常见问题
 
-1. **无法连接到eNSP**：
-   - 确保eNSP已以管理员权限运行
-   - 检查eNSP版本兼容性
-   - 确认COM对象已正确注册
-
-2. **API调用失败**：
+1. **API调用失败**：
    - 检查API密钥是否正确配置
    - 确认网络连接正常
    - 检查API服务是否可用
 
-3. **拓扑生成问题**：
+2. **拓扑生成问题**：
    - 尝试使用更具体的网络描述
    - 使用内置示例作为参考
 
